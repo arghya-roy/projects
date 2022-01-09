@@ -1,4 +1,4 @@
-
+# Dockerfile is in docker server
 
 
 1. Launch an EC2 instance for Docker host
