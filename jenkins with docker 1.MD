@@ -64,7 +64,7 @@ B) Build
  Goals and options : clean install package  
  
 C) send files or execute commands over SSH
- Name: docker_host  
+ Name: select server name 
  Source files	: `webapp/target/*.war`
  Remove prefix	: `webapp/target`
  Remote directory	: `//opt//docker`  
@@ -78,7 +78,7 @@ C) send files or execute commands over SSH
   ```
 
 D) send files or execute commands over SSH  
-  Name: `docker_host`  
+  Name: select server name 
   Exec command	: `docker run -d --name valaxy_demo -p 8090:8080 valaxy_demo`  
 
 11. Login to Docker host and check images and containers. (no images and containers)
