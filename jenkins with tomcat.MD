@@ -43,4 +43,9 @@ Now job is running fine but to make this as Continuous Integration and Continuou
 
 Save the job and modify the code in GitHub. Then you could see your job get trigger a build without any manual intervention.
 
+Access web application from browser which is running on container
+```
+<tomcat-server_Public_IP>:8090/webapp/
+```
+
 
