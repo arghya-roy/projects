@@ -22,7 +22,7 @@ vi /etc/ssh/sshd_config
 service sshd restart 
 ```
 
-
+6. null
 5. give root previledge to dockeradmin user
 ```
 visudo
@@ -71,7 +71,7 @@ C) send files or execute commands over SSH
  
   ```
   
-  send files or execute commands over SSH
+ D) send files or execute commands over SSH
    ```
  Name: select server name  
  Source files	: **/Dockerfile
@@ -80,7 +80,7 @@ C) send files or execute commands over SSH
  Exec command[s]	: 
   ```
   
-  send files or execute commands over SSH
+ E) send files or execute commands over SSH
    ```
  Name: select server name  
  Source files	: 
@@ -94,7 +94,7 @@ docker image rm -f valaxy_demo;
 docker build -t valaxy_demo .
   ```
 
-D) send files or execute commands over SSH  
+F) send files or execute commands over SSH  
  ```
   Name: select server name  
   Exec command	: docker run -d --name valaxy_demo -p 8090:8080 valaxy_demo 
