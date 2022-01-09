@@ -64,8 +64,8 @@ B) Build
 C) send files or execute commands over SSH
   ```
  Name: select server name 
- Source files	: `webapp/target/*.war`
- Remove prefix	: `webapp/target`
+ Source files	: webapp/target/*.war
+ Remove prefix	: webapp/target
  Remote directory	: . 
  Exec command[s]	: 
  
@@ -74,7 +74,7 @@ C) send files or execute commands over SSH
   send files or execute commands over SSH
    ```
  Name: select server name  
- Source files	: `**/Dockerfile`
+ Source files	: **/Dockerfile
  Remove prefix	: 
  Remote directory	: . 
  Exec command[s]	: 
@@ -87,7 +87,7 @@ C) send files or execute commands over SSH
  Remove prefix	: 
  Remote directory	:  
  Exec command[s]	: 
-  ```sh
+  
   docker stop valaxy_demo;
 docker rm -f valaxy_demo;
 docker image rm -f valaxy_demo;
@@ -96,8 +96,8 @@ docker build -t valaxy_demo .
 
 D) send files or execute commands over SSH  
  ```
-  Name: `select server name`  
-  Exec command	: `docker run -d --name valaxy_demo -p 8090:8080 valaxy_demo` 
+  Name: select server name  
+  Exec command	: docker run -d --name valaxy_demo -p 8090:8080 valaxy_demo 
    ```
 
 11. Login to Docker host and check images and containers. (no images and containers)
