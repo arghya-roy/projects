@@ -1,4 +1,4 @@
-## Simple DevOps Project -3 
+## Dockerfile is in github 
 
 
 1. Launch an EC2 instance for Docker host
