@@ -1,6 +1,6 @@
 Install a plugin named AWS ELASTIC BEANSTALK
 
-'''
+```
 New item > freestyle
 ```
 ```
