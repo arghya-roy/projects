@@ -1,10 +1,11 @@
 Install a plugin named AWS ELASTIC BEANSTALK
+and create a beanstalk with docker platform in aws
 
 ```
 New item > freestyle
 ```
 ```
-source code management - git https://github.com/arghya-roy/beanstalk1.git
+source code management - git - https://github.com/arghya-roy/beanstalk1.git
 ```
 ```
 1. Build Step - AWS Elastic Beanstalk
@@ -19,3 +20,5 @@ source code management - git https://github.com/arghya-roy/beanstalk1.git
 10. Number Of Attempts = 30
 11. Ensure Health is Green after deploy? = checkrd
 ```
+it picks all files (with dockerfile and docker-compose) from git and make them zip 
+and push them in elastic beanstalk.
